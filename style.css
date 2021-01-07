@@ -1,0 +1,33 @@
+body {
+  background-color: white;
+}
+
+.listItem {
+  background-color: white;
+  overflow: hidden;
+  width: 20%;
+  transition: transform .2s;
+  line-height: 1;
+  padding: 8px;
+  padding-top: 6px;
+  margin: 7px;
+  padding-left: 8px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px #000000;
+}
+
+.listItem:hover {
+  transform: translate(5px, 0px);/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.listItem .itemRow {
+  float: left;
+}
+
+.listItem .alignEnd {
+  float: right;
+}
+
+.listItem #itemSep {
+  white-space: pre;
+}
